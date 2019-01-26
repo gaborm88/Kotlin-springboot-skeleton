@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: "dev"
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+    hibernate: DEBUG
+  file: log/application.log

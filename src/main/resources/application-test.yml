@@ -1,0 +1,11 @@
+spring:
+  profiles: test
+  jpa:
+    hibernate:
+      ddlAuto: validate
+      namingStrategy: org.hibernate.cfg.EJB3NamingStrategy
+    show-sql: true
+  flyway:
+    enabled: true
+    baselineOnMigrate: true
+

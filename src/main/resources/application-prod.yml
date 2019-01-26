@@ -1,0 +1,15 @@
+spring:
+  profiles: prod
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql-docker:3306/test?autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddlAuto: validate
+      namingStrategy: org.hibernate.cfg.EJB3NamingStrategy
+    show-sql: false
+  flyway:
+    baselineOnMigrate: false

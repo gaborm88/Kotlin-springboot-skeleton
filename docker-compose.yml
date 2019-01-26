@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  mysql-docker:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=test
+      - MYSQL_PASSWORD=root
+  kotlin-springboot-skeleton:
+    image: com.mg.demo/kotlin-springboot-skeleton:0.0.1-SNAPSHOT
+    ports:
+      - 8080:8080
+    environment:
+      - DATABASE_HOST=mysql-docker
+      - DATABASE_USER=root
+      - DATABASE_PASSWORD=root
+      - DATABASE_NAME=test
+      - DATABASE_PORT=3306
