@@ -1,6 +1,6 @@
 # Kotlin Spring boot example project
 
-This is an skeleton project for a Spring boot with Kotlin. Doesn't contain any business logic, but it has two demo entity.
+This is an skeleton project for a Spring boot with Kotlin. Doesn't contain any business logic, but it has two demo entity, you can make CRUD actions on them (User and Address).
 The project also using Flyway for migration.
 
 
@@ -29,4 +29,5 @@ https://stackoverflow.com/questions/6402162/how-to-enable-intellij-hot-code-swap
 - address api doesn't map address.user
 - Tests
 - Setup gradle to create an other library from the public package
+- Add demo requests to readme
 - and more ... :)
