@@ -24,9 +24,9 @@ https://stackoverflow.com/questions/6402162/how-to-enable-intellij-hot-code-swap
 
 
 ##### Todos:
-[ ] Single command for run with docker-compose
-[ ] Save address through the user api (sub document)
-[ ] address api doesn't map address.user
-[ ] Tests
-[ ] Setup gradle to create an other library from the public package
-[ ] and more ... :)
+- Single command for run with docker-compose
+- Save address through the user api (sub document)
+- address api doesn't map address.user
+- Tests
+- Setup gradle to create an other library from the public package
+- and more ... :)
