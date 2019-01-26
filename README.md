@@ -1,6 +1,6 @@
 # Kotlin Spring boot example project
 
-This is an skeleton project for a Spring boot with Kotlin. Doesn't contain any business logic, but it has two demo entity, you can make CRUD actions on them (User and Address).
+This is an skeleton project for a Spring boot with Kotlin. Doesn't contain any business logic, but it has two demo entity, you can make CRUD operations on them (User and Address).
 The project also using Flyway for migration.
 
 
