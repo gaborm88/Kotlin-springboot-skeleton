@@ -23,7 +23,7 @@ https://stackoverflow.com/questions/6402162/how-to-enable-intellij-hot-code-swap
 `docker run -p 8080:8080 -t kotlin-springboot-skeleton:latest`
 
 
-##### Todos:
+##### Todo:
 - Single command for run with docker-compose
 - Save address through the user api (sub document)
 - address api doesn't map address.user
